@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="/assets/index.71fa43f3.css">
   </head>
   <body>
-	  <script type="module">
-  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js';
+	 <script type="module">
+  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'
 
-  Typebot.initStandard({ typebot: "my-typebot-in64kxh" });
+  Typebot.initBubble({
+    typebot: "my-typebot-in64kxh",
+    theme: {
+      button: { backgroundColor: "#0042DA" },
+      chatWindow: { backgroundColor: "#fff" },
+    },
+  });
 </script>
-
-<typebot-standard style="height: 100vh; "></typebot-standard>
-    
   </body>
 </html>
