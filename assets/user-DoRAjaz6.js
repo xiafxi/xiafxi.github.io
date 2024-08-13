@@ -1,0 +1,1 @@
+import{_ as r}from"./index-C27_cxH7.js";import"https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js";const t={};function e(o,s,n,c,_,p){return null}const u=r(t,[["render",e]]);export{u as default};
